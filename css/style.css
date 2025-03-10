@@ -1,7 +1,49 @@
 body {
   background-image: url("images/galaxy.png");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: Impact, sans-serif;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 td, th {
-	border: 1px solid;
-  }
+  border: 1px solid white;
+  padding: 10px;
+}
+
+th {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 18px;
+}
+
+td {
+  font-size: 16px;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
