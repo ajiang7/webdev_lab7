@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/galaxy.png");
+  background-image: url("../images/galaxy.png");
   background-size: cover;
   background-attachment: fixed;
   font-family: Arial, sans-serif;
